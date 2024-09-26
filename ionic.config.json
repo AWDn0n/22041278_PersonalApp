@@ -1,0 +1,7 @@
+{
+  "name": "22041278_PersonalApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
