@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Pablo Ribas Borrego
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,56 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Profile</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <br>
+
+  <div style="text-align: center;">
+    <img src="https://avatars.githubusercontent.com/u/91079235?v=4" alt="Pablo Ribas Borrego" style="width: 250px; height: auto;">
+  </div>
+
+  <br>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Who am I?</ion-card-title>
+    </ion-card-header>
+
+    <style>
+      ion-card-header {
+        text-align: center;
+      }
+    </style>
+
+    <ion-card-content>
+      Pablo Ribas Borrego is a student at the Universidad Europea de Madrid (UEM), who has actively participated in several technology-related competitions. He was part of a team that won second place in Oracle's "I Reto Enseña", a prestigious challenge aimed at developing talent in areas such as machine learning, data science, and IoT. His team worked on tasks like classifying restaurant dishes and developing predictive models for pricing menus based on currency fluctuations.
+      Additionally, Ribas Borrego is active on GitHub under the username "AWDn0n", where he has contributed to various academic projects, mainly related to statistical programming and data visualization. He has also published data analysis reports, such as those focusing on happiness metrics and economic factors.
+    </ion-card-content>
+
+    <style>
+      ion-card-content {
+        text-align: justify;
+      }
+    </style>
+  </ion-card>
+
+  <br>
+
+  <!-- Add a link to resume, make the text a bit bigger than normal and make it centered -->
+  <div style="text-align: center;">
+    <a href="https://github.com/AWDn0n">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" style="width: 40px; height: auto;">
+    </a>
+    &nbsp;
+    <a href="https://www.linkedin.com/in/pablo-ribas-borrego/">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" style="width: 40px; height: auto;">
+    </a>
+    <br>
+    <br>
+    <a href="https://drive.google.com/file/d/1hbp4qltEgbXFfggaoy3W2tdbDjVJZniN/view?usp=sharing" style="font-size: 20px;">Check out my resume</a>
+  </div>
+
+  <app-explore-container name="Profile page"></app-explore-container>
 </ion-content>
